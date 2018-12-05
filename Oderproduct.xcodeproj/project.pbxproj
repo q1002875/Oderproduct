@@ -14,6 +14,13 @@
 		3A80BC3A21B69200007467BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A80BC3821B69200007467BA /* LaunchScreen.storyboard */; };
 		3A80BC4521B69200007467BA /* OderproductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BC4421B69200007467BA /* OderproductTests.swift */; };
 		3A80BC5021B69200007467BA /* OderproductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BC4F21B69200007467BA /* OderproductUITests.swift */; };
+		3A80BCE121B7FB32007467BA /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCE021B7FB32007467BA /* FavoriteViewController.swift */; };
+		3A80BCE321B7FB4A007467BA /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCE221B7FB4A007467BA /* CartViewController.swift */; };
+		3A80BCE521B7FB5B007467BA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCE421B7FB5B007467BA /* AccountViewController.swift */; };
+		3A80BCE721B80106007467BA /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCE621B80106007467BA /* ProductInfoViewController.swift */; };
+		3A80BCE921B8048A007467BA /* frame_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A80BCE821B8048A007467BA /* frame_01.png */; };
+		3A80BCED21B8070C007467BA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCEC21B8070C007467BA /* ProductCell.swift */; };
+		3A80BCEF21B8079F007467BA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80BCEE21B8079F007467BA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		3A80BC4B21B69200007467BA /* OderproductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OderproductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A80BC4F21B69200007467BA /* OderproductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderproductUITests.swift; sourceTree = "<group>"; };
 		3A80BC5121B69200007467BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A80BCE021B7FB32007467BA /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		3A80BCE221B7FB4A007467BA /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		3A80BCE421B7FB5B007467BA /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		3A80BCE621B80106007467BA /* ProductInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
+		3A80BCE821B8048A007467BA /* frame_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_01.png; sourceTree = "<group>"; };
+		3A80BCEC21B8070C007467BA /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3A80BCEE21B8079F007467BA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 				3A80BC4321B69200007467BA /* OderproductTests */,
 				3A80BC4E21B69200007467BA /* OderproductUITests */,
 				3A80BC2D21B691FF007467BA /* Products */,
+				3A80BCE821B8048A007467BA /* frame_01.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +114,16 @@
 			children = (
 				3A80BC2F21B691FF007467BA /* AppDelegate.swift */,
 				3A80BC3121B691FF007467BA /* ViewController.swift */,
+				3A80BCE021B7FB32007467BA /* FavoriteViewController.swift */,
+				3A80BCE221B7FB4A007467BA /* CartViewController.swift */,
+				3A80BCE421B7FB5B007467BA /* AccountViewController.swift */,
 				3A80BC3321B691FF007467BA /* Main.storyboard */,
 				3A80BC3621B69200007467BA /* Assets.xcassets */,
 				3A80BC3821B69200007467BA /* LaunchScreen.storyboard */,
 				3A80BC3B21B69200007467BA /* Info.plist */,
+				3A80BCE621B80106007467BA /* ProductInfoViewController.swift */,
+				3A80BCEC21B8070C007467BA /* ProductCell.swift */,
+				3A80BCEE21B8079F007467BA /* Product.swift */,
 			);
 			path = Oderproduct;
 			sourceTree = "<group>";
@@ -231,6 +252,7 @@
 			files = (
 				3A80BC3A21B69200007467BA /* LaunchScreen.storyboard in Resources */,
 				3A80BC3721B69200007467BA /* Assets.xcassets in Resources */,
+				3A80BCE921B8048A007467BA /* frame_01.png in Resources */,
 				3A80BC3521B691FF007467BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A80BCE721B80106007467BA /* ProductInfoViewController.swift in Sources */,
+				3A80BCEF21B8079F007467BA /* Product.swift in Sources */,
+				3A80BCE321B7FB4A007467BA /* CartViewController.swift in Sources */,
+				3A80BCE521B7FB5B007467BA /* AccountViewController.swift in Sources */,
 				3A80BC3221B691FF007467BA /* ViewController.swift in Sources */,
+				3A80BCE121B7FB32007467BA /* FavoriteViewController.swift in Sources */,
+				3A80BCED21B8070C007467BA /* ProductCell.swift in Sources */,
 				3A80BC3021B691FF007467BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
